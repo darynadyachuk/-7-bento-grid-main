@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --clr-purple-100: hsl(254, 88%, 90%);
+    --clr-purple-500: hsl(256, 67%, 59%);
+    --clr-yellow-100: hsl(31, 66%, 93%);
+    --clr-yellow-500: hsl(39, 100%, 71%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-black: hsl(0, 0%, 7%);
+
+    --font-family: 'DM Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: var(--clr-white);
+    font-family: var(--font-family);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+main {
+    max-width: 16rem;
+    background-color: var(--clr-white);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+    gap:1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    margin-inline: 1rem;
+}
+
+h2{
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+}
+h1, h2{
+    font-weight: 500;
+}
+
+section{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--clr-purple-100);
+}
+
+footer {
+    margin-block-end: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 span{
+    color: var(--clr-yellow-500);
+}
+
+.social-media{
+    background-color: var(--clr-purple-500);
+    color: var(--clr-white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platforms{
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule{
+    background-color: var(--clr-yellow-500);
+    padding-inline: 1rem;
+    padding-block-start: 1rem;
+}
+
+.time-to-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.folowers-growth{
+    background-color: var(--clr-purple-500);
+    color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.audience-growth{
+    background-color: var(--clr-white);
+}
+
+.create-post{
+    background-color: var(--clr-yellow-100);
+}
+
+.ai{
+    background-color: var(--clr-yellow-500);
+}
+
+.social-media img{
+    max-width: 12rem;
+    
+}
+
+.platforms img{
+    max-width: 16rem;
+    height: auto;
+}
+
+.schedule img{
+    max-width: 11rem;
+    height: auto;
+}
+
+.time-to-post img{
+    max-width: 15rem;
+    height: auto;
+}
+
+.time-to-post p{
+    margin-inline: 1rem;
+}
+
+.folowers-growth img{
+    max-width: 12rem;
+    height: auto;
+}
+
+.folowers-growth h2{
+    margin-inline: 3rem;
+}
+
+.audience-growth img{
+    max-width: 10rem;
+    height: auto;
+}
+
+.audience-growth h2{
+    font-size: 2.2rem;
+}
+
+.create-post em{
+    color: var(--clr-purple-500);
+}
+
+.create-post img{
+    max-width: 10rem;
+    height: auto;
+    margin-inline-start: 1rem;
+}
+
+.ai img{
+    max-width: 10rem;
+    height: auto;
+}
+
+.ai h2{
+    margin-inline-end: 2rem;
+}
